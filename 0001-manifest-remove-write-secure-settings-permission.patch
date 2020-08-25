@@ -1,0 +1,12 @@
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+index ffc0e12..e439b42 100644
+--- a/app/src/main/AndroidManifest.xml
++++ b/app/src/main/AndroidManifest.xml
+@@ -17,7 +17,6 @@
+         <activity
+             android:name="com.genymobile.gnirehtet.GnirehtetActivity"
+             android:exported="true"
+-            android:permission="android.permission.WRITE_SECURE_SETTINGS"
+             android:theme="@style/Theme.Transparent">
+             <intent-filter>
+                 <action android:name="com.genymobile.gnirehtet.START" />
