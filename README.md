@@ -14,7 +14,8 @@ The rest is same as the actual [gnirehtet usage][4].
 ## Patch list
 
 * 0001 - remove `WRITE_SECURE_SETTINGS` permission from `AndroidManifest.xml`.
-* 0002 - update gradle build tools in `build.gradle`.
+* 0002 - update gradle build tools in `build.gradle` and `gradle-wrapper.properties` file.
+* 0003 - update rust cargo crates depndencies in `Cargo.lock` file.
 
 ## Related links:
 

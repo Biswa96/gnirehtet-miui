@@ -1,5 +1,5 @@
 diff --git a/build.gradle b/build.gradle
-index e87852c..f656dcd 100644
+index e87852c..fbf4722 100644
 --- a/build.gradle
 +++ b/build.gradle
 @@ -11,7 +11,7 @@ buildscript {
@@ -7,7 +7,20 @@ index e87852c..f656dcd 100644
      }
      dependencies {
 -        classpath 'com.android.tools.build:gradle:3.5.0'
-+        classpath 'com.android.tools.build:gradle:3.5.3'
++        classpath 'com.android.tools.build:gradle:4.0.1'
  
          // NOTE: Do not place your application dependencies here; they belong
          // in the individual module build.gradle files
+diff --git a/gradle/wrapper/gradle-wrapper.properties b/gradle/wrapper/gradle-wrapper.properties
+index b81e6d7..1bf2fa4 100644
+--- a/gradle/wrapper/gradle-wrapper.properties
++++ b/gradle/wrapper/gradle-wrapper.properties
+@@ -1,6 +1,6 @@
+-#Sat Sep 07 21:43:49 CEST 2019
++#Tue Aug 25 19:05:07 IST 2020
+ distributionBase=GRADLE_USER_HOME
+ distributionPath=wrapper/dists
+ zipStoreBase=GRADLE_USER_HOME
+ zipStorePath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-5.4.1-all.zip
++distributionUrl=https\://services.gradle.org/distributions/gradle-6.1.1-all.zip
